@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xs.daos.GiftBagMapper">
+  <resultMap id="BaseResultMap" type="com.xs.beans.GiftBag">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    <result column="gmt_modify" jdbcType="TIMESTAMP" property="gmtModify" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="item_ids" jdbcType="VARCHAR" property="itemIds" />
+    <result column="full_of_gifts" jdbcType="DECIMAL" property="fullOfGifts" />
+    <result column="coupon_ids" jdbcType="VARCHAR" property="couponIds" />
+  </resultMap>
+</mapper>
