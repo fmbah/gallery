@@ -16,7 +16,6 @@ import org.springframework.validation.BindingResult;
 import java.util.List;
 
 /**
-\* 杭州桃子网络科技股份有限公司
 \* User: ${author}
 \* Date: ${date}
 \* To change this template use File | Settings | File Templates.
