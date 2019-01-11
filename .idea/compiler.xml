@@ -13,5 +13,13 @@
         <module name="gallery-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gallery" target="1.8" />
+      <module name="gallery-api" target="1.8" />
+      <module name="gallery-biz" target="1.8" />
+      <module name="gallery-common" target="1.8" />
+      <module name="gallery-pack" target="1.8" />
+      <module name="gallery-web" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
